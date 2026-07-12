@@ -63,6 +63,12 @@
 * Amazon Macie >> use ai to discover and secure to sensitive data
 * AWS CloudTrail >> record all API Calls(who you work and where and when ?useful to review and Auditing)
 * AWS KMS  >> manage encrypts key
+* Amazon Gaurduty >> service discover threat detection by usu machine learning to monitor account active and find Malicious activity or not factuly
+* Amazon Inspector >> check automatic tools (automated vulnerability management)check servers ec2 and containers to search software flaws
+* AWS Artifact >> Central portal for accessing dedicated security and compliance reports (e.g iso,soc)
+* AWS CloudWatch >> service monitoring performance metrics ex. cpu usage >> alarms or start Auto Scaling
+* AWS Trust Advisor >> tools check your account  and give advice (real-time guiedance) debends on  5 field best practice (cost, performance,security,handiling errors,service limit)
+* AWS Config >> service record and category resources seteing(configrations)if you need whats  change in security groups from week to day
 
 
 
@@ -86,30 +92,41 @@
 
 &#x20; 3-Amazone ECS/EKS >> manage and start containers (Docker \& Kubernetes)
 
+&#x20;4- AWS Fargate >> compute engine process serverless to ECS AND EKS ,make containers start without need manage servers ec2 
+
 * storage
 
-&#x20;1-Amazone S3 >> object storage to files and photos and backups
+&#x20;1-Amazone S3 >> object storage to files and photos and backups(durability 11 >>9)
 
-&#x20;2- Amazone EBS >> Block Storage link with EC2
+&#x20;2- Amazone EBS >> Block Storage link with EC2 in the same az one server
 
-&#x20;3-Amazone EFS >> Shared files system can link it to more Linux sever in the same time
+&#x20;3-Amazone EFS >> Shared files system can link it to more Linux sever in the same time (more az more server)
 
 &#x20;4- AWS Snow Family >> physical devices for transferring massive amounts of data (betabytes) to AWS without using the internet
 
+5- Amazon s3 Glacier >> category of s3 spical to data Archeving ,it not need want it speed ,the cost very low but ,data recovery takes time(from minutes to hours)
+
 * Datebases
 
-&#x20;1- Amazone RDS >> reational databases (SQL,MYSQL,PostgreSQL)
+&#x20;1- Amazone RDS >> reational databases (SQL,MYSQL,PostgreSQL) AWS response updates,patching and backups
 
-&#x20; 2-Amazone DynamoDB >> non reational databases (NOSQL)very speed
+&#x20; 2-Amazone DynamoDB >> non reational databases (NOSQL)very speed(serverless )
 
-&#x20;3- Amazone Redshift >> Dtae Warehouse to anylysis big data
+&#x20;3- Amazone Redshift >> Dtae Warehouse to anylysis big data 
+
+4- Amazon Aurora >> reational databases of AWS ,integratded with MYSQL AND PostgreSQL but it 5 speed and low cost 
 
 
 
 * Networking 
 1. &#x20;Amazone VPC >> isolate private network on AWS
+ 1-subnets >> div vpc to small network(public,private)
+ 2-security group >> work a virtual firewale level on instances ec2
+ 3-NACLs (Network Access Control Lists) >> work  afirewale level on subnet
 2. Amazone Route 53 >> DNS Service (Domain Forwarding)
 3. Amazone CloudFront >> content deliver network (CDN) to accelerate websites loading
+4. Elastic Load Balencer(ELB)>> distribute incoming traffic acroos multible servers to ensure system does not fail under load
+5. Auto Scaling >> usually work with ELB,it add new server when increase triffic (scale out),and remove it when reduce traffic (scale in)  
 
 # Biling,Pricing and Support 12%
 
@@ -128,6 +145,7 @@
 1. AWS Pricing Calculator >> cost estimation prior to project construction
 2. AWS Cost Explorer >> Analyzing current and past cost data and generating forecasts
 3. AWS Budgets >> create a budget and receive alerts if you exceed the allowed limit
+4. SCPs (Service Control Polices)>> allow and deny some service on the all accounts 
 
 
 
