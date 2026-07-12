@@ -161,3 +161,44 @@
 
 
 
+
+
+
+
+
+
+# KEY Words
+
+
+
+
+
+|AWS Service|Keyword|
+|-|-|
+|AWS lambda|serverless compute /run code without managing servers|
+|AWS CloudTrail|who did what and when /track API calls /Auditing|
+|Amazon CloudWatch|Performance monitoring /Metrics/Alarm/logs|
+|AWS Trust Advisor|Best Practise guidance /Cost optimization checks|
+|Amazon RDS|SQL/Relational Databases/managed database|
+|Amazon DyanmoDB|NOSQL/Key-value/Single-digit millisecond latency|
+|Amazon Redshift|date warehouse/Analytic on massive datasets|
+|Amazon CloudFront|Content Delivery Network(CDN)/Low Letancy/Caching|
+|Amazon Route 53|DNS/Domain Name routing|
+|AWS Shield|Protect against DDoS attacks|
+|AWS WAF|Protect against SQL injection \& cross-site Scripting|
+|Amazon Guarduty|Threat detection/Malicious activity/Machine Learning|
+|Amazon Macie|PII/Senstive data protection in s3 /machine leaerning|
+|IAM Role|Temporary credentials/grant permission to AWS service|
+|AWS Artifact|Compliance reports/ISO /SOC|
+|AWS ClouudFormation|IaC/Provision using templates|
+|AWS Organization |Centralized account management /Consolidated billing|
+|AWS Pricing Calculator|Estimate cost before provisioning resources|
+|AWS Cost Explorer|Analyze past and current cost /Forecast future cost|
+|Amazon VPC|Virtual Private Network/isolated section of AWS cloud|
+|Amazon ElasticCache|Sub-millisecond latency/in memory data store/ cache|
+|AWS Snowball/Snowmobile|Transfer Petabytes/Exabytes of data offline|
+|Amazon EFS|Shared file system for Linux instances|
+|Amazon EBS|Block Storage attached to a single EC2 instance|
+
+
+
