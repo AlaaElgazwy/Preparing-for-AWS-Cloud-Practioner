@@ -1,12 +1,12 @@
 # cloud concept 24%
 
 * Iaas >> you manage server and os (e.g ec2)
-* PaaS >> you responseable code and data, AWS manage Iac (e.g Elastic Beanstalk) 
+* PaaS >> you responseable code and data, AWS manage Iac (e.g Elastic Beanstalk)
 * SaaS >> final product you use it direct (e.g Gmail)
 
 &#x20;
 
-* Deployment models 
+* Deployment models
 1. puplic
 2. private (on-premises)
 3. hybrid
@@ -22,11 +22,11 @@
 
 * AWS well- Architected framework
 
-1-operational excellence >> power and monitor system to business value 
+1-operational excellence >> power and monitor system to business value
 
 2- security >> secure system and information
 
-3- realiabilty >> system ability to slove problem 
+3- realiabilty >> system ability to slove problem
 
 4- performance efficiency >> use resorces smart
 
@@ -46,7 +46,7 @@
 
 
 
-* IAM 
+* IAM
 
 &#x20;1- users (someone or app)
 
@@ -84,7 +84,7 @@
 
 
 
-* compute 
+* compute
 
 &#x20;1- Amazone Ec2 >> virtual machines
 
@@ -92,7 +92,7 @@
 
 &#x20; 3-Amazone ECS/EKS >> manage and start containers (Docker \& Kubernetes)
 
-&#x20;4- AWS Fargate >> compute engine process serverless to ECS AND EKS ,make containers start without need manage servers ec2 
+&#x20;4- AWS Fargate >> compute engine process serverless to ECS AND EKS ,make containers start without need manage servers ec2
 
 * storage
 
@@ -112,21 +112,21 @@
 
 &#x20; 2-Amazone DynamoDB >> non reational databases (NOSQL)very speed(serverless )
 
-&#x20;3- Amazone Redshift >> Dtae Warehouse to anylysis big data 
+&#x20;3- Amazone Redshift >> Dtae Warehouse to anylysis big data
 
-4- Amazon Aurora >> reational databases of AWS ,integratded with MYSQL AND PostgreSQL but it 5 speed and low cost 
+4- Amazon Aurora >> reational databases of AWS ,integratded with MYSQL AND PostgreSQL but it 5 speed and low cost
 
 
 
-* Networking 
+* Networking
 1. &#x20;Amazone VPC >> isolate private network on AWS
- 1-subnets >> div vpc to small network(public,private)
- 2-security group >> work a virtual firewale level on instances ec2
- 3-NACLs (Network Access Control Lists) >> work  afirewale level on subnet
+1-subnets >> div vpc to small network(public,private)
+2-security group >> work a virtual firewale level on instances ec2
+3-NACLs (Network Access Control Lists) >> work  afirewale level on subnet
 2. Amazone Route 53 >> DNS Service (Domain Forwarding)
 3. Amazone CloudFront >> content deliver network (CDN) to accelerate websites loading
 4. Elastic Load Balencer(ELB)>> distribute incoming traffic acroos multible servers to ensure system does not fail under load
-5. Auto Scaling >> usually work with ELB,it add new server when increase triffic (scale out),and remove it when reduce traffic (scale in)  
+5. Auto Scaling >> usually work with ELB,it add new server when increase triffic (scale out),and remove it when reduce traffic (scale in)
 
 # Biling,Pricing and Support 12%
 
@@ -145,12 +145,12 @@
 1. AWS Pricing Calculator >> cost estimation prior to project construction
 2. AWS Cost Explorer >> Analyzing current and past cost data and generating forecasts
 3. AWS Budgets >> create a budget and receive alerts if you exceed the allowed limit
-4. SCPs (Service Control Polices)>> allow and deny some service on the all accounts 
+4. SCPs (Service Control Polices)>> allow and deny some service on the all accounts
 
 
 
-* Support plans 
-1. Basic >> free,Access to customer service and documentation only 
+* Support plans
+1. Basic >> free,Access to customer service and documentation only
 2. Developer >> Email technical support during business hours(respone via 12 :24 hours)
 3. Business >> 24/7n technical support via chat and phone  (for the production environment)(respone via one our)
 4. Enterprise >> very fast technical support with a dedicated technical Account Manager (TAM)(response in 15 minutes if imergancy)
@@ -191,7 +191,7 @@
 |IAM Role|Temporary credentials/grant permission to AWS service|
 |AWS Artifact|Compliance reports/ISO /SOC|
 |AWS ClouudFormation|IaC/Provision using templates|
-|AWS Organization |Centralized account management /Consolidated billing|
+|AWS Organization|Centralized account management /Consolidated billing|
 |AWS Pricing Calculator|Estimate cost before provisioning resources|
 |AWS Cost Explorer|Analyze past and current cost /Forecast future cost|
 |Amazon VPC|Virtual Private Network/isolated section of AWS cloud|
@@ -199,6 +199,29 @@
 |AWS Snowball/Snowmobile|Transfer Petabytes/Exabytes of data offline|
 |Amazon EFS|Shared file system for Linux instances|
 |Amazon EBS|Block Storage attached to a single EC2 instance|
+
+
+
+Application Intrgration \& Decoupling
+
+* Amazon SQS(Simple Queue Service) >> queue service message ,key words (Decouple ,queue message)
+* Amazon SNS (Simple Notification Service) >> service notification message ,send message (Email,SMS Notification, push)to million user in the same moment key words(Pub/Sub/Notification)
+* Amazon EventBridge >> link service between app debends on event (Event-driven archeticture)
+
+
+
+
+
+AI \& Machine Learning
+
+* Amazon SageMaker >> (build ,train and deploy ML models)
+* Amazon Lex >> Build Chatbots and  regonise sound and text
+* Amazon Polly >> convert text-to-speech
+* Amazon Rekognition >> Anlysis photos and videos (reconise faces, thinks,or Inappropriate content)
+* Amazoon Kendra >> smart engine search to company uses ml to search in company files and export correct answers
+* 
+
+
 
 
 
