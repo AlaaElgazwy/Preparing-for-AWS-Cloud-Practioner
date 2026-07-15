@@ -219,9 +219,46 @@ AI \& Machine Learning
 * Amazon Polly >> convert text-to-speech
 * Amazon Rekognition >> Anlysis photos and videos (reconise faces, thinks,or Inappropriate content)
 * Amazoon Kendra >> smart engine search to company uses ml to search in company files and export correct answers
-* 
 
 
 
 
+
+AWS Cloud Adoption Framework-CAF
+
+>> guidance group to help companies to move the cloud   by arrangement ,be from 6 Perspectives
+
+* Business >> ensur technology meets business objectives(ROI)
+* People >> training employmees and change work culture to suit the cloud
+* Governance >> risk management ,regulatory compliance ,and value maximization
+* Platform >> designing and building cloud infrastcture
+* Security >> secure data and access control
+* operations >> daily operation ,management ,and maintenance of applications
+
+
+
+Developer Tools \& CI/CD
+
+* AWS CodeCommit >> secure place to store code
+* AWS CodeBuild >> compiles and tests the code (testing)
+* AWS CodeDeply >> deploy code on  servers automatice (lambda or ec2)
+* AWS CodePipeline >> the CI/CD pipeline manages this entire process, from storage to deployment
+
+
+
+Analytics 
+
+* Amazon Athena >> allows you to run queries using standard SQL directly on data stored in Amazon S3 , Without having to move it to a database.
+* Amazon EMR(Elastic MapReduce) >> to process massive datasets (Big data) using tools like Hadoop and Spark
+
+
+
+
+
+Cloud value Proposition:
+
+* Agility >> ability to launch new servers and services in minutes rather than weeks(focusing here on the speed of innovation and time savings)
+* Elasticity >> system ability (scale out)(scale in) autoomatics depends on loads ,pay as you go,
+* Reliability >> system ability to Recover from failures and contanious in work
+* High Availability >> system is up and running and available at all times.(Availability Zone AZs)
 
